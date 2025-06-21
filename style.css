@@ -1,0 +1,69 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+header {
+    /* ширина */
+    width: 100%;
+    /* высота */
+    height: 70px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+article {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: bisque;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-top: 1px solid black;
+    background-color: chocolate;
+}
+#site-logo {
+    height: 100%;
+    float: left;
+}
+#logo-text {
+    float: left;
+    height: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card {
+    background-color: greenyellow;
+    width: 30%;
+    margin: 1.5%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid black;
+    float: left;
+}
+.card-image {
+    border: 1px solid black;
+    width: 100%;
+}
+.card-title {
+    width: 100%;
+}
+.card-button {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.post.image {
+        height: 100px;
+        width:100px;
+    }
